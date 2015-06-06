@@ -1,0 +1,2 @@
+class ImdbApi < ActiveRecord::Base
+end

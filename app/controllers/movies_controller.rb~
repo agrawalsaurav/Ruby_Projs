@@ -1,0 +1,5 @@
+class MoviesController < ApplicationController
+def index
+gon.movies = Spotlite::Top250.new().limit(10)
+end
+end
